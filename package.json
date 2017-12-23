@@ -1,0 +1,22 @@
+{
+  "name": "wallet",
+  "version": "1.0.0",
+  "description": "Get the CodeBase wallet information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo I am testing"
+  },
+  "keywords": [
+    "restful",
+    "api"
+  ],
+  "author": "Kiran Gautam",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.3"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7"
+  }
+}
