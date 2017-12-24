@@ -7,6 +7,9 @@ module.exports = function(app) {
     .get(todoList.list_all_tasks)
     .post(todoList.create_a_task);
 
+    app.route('/wallet')
+        .get(todoList.get_wallet)
+        .post(todoList.create_a_task);
 
   app.route('/tasks/:taskId')
     .get(todoList.read_a_task)
